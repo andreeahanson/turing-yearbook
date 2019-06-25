@@ -14,7 +14,6 @@ class App extends Component {
 
   render() {
     let list = people.staff.map(person => {
-      console.log(person)
       return (
         <Cohort person={person}/>
       )
@@ -24,8 +23,10 @@ class App extends Component {
       <div className="App">
       <header className="App-header">
       <h1>Turing Yearbook</h1>
-      {list}
       </header>
+      <main>
+      {list}
+      </main>
       </div>
     );
   }

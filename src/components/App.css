@@ -17,9 +17,12 @@ body {
 
 .App {
   text-align: center;
-  display: flex;
+}
+
+main {
+  display: grid;
   justify-content: center;
-  flex-direction: row; 
+  grid-template-columns: repeat(4, 1fr);
 }
 
 h1 {
