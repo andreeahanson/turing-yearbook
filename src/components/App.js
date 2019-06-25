@@ -11,13 +11,21 @@ class App extends Component {
     }
   }
 
+
   render() {
+    let list = people.staff.map(person => {
+      console.log(person)
+      return (
+        <Cohort person={person}/>
+      )
+    })
+
     return (
       <div className="App">
       <header className="App-header">
       <h1>Turing Yearbook</h1>
+      {list}
       </header>
-        YOUR CODE GOES HERE
       </div>
     );
   }
