@@ -13,4 +13,4 @@ const Cohort = props => {
 
 }
 
-export default Cohort;
+export default Cohort; 
