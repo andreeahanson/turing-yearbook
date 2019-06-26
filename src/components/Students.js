@@ -1,9 +1,9 @@
 import React from 'react';
 import Person from './Person';
-import './Cohort.css';
+import './Students.css';
 
-const Cohort = ({staff}) => {
-  const staffCards = staff.map(person => {
+const Students = students => {
+  const studentCards = students.students.map(person => {
     return (
       <Person
         id = {person.id}
@@ -19,10 +19,10 @@ const Cohort = ({staff}) => {
   return (
     <>
     <section className="people">
-      {staffCards}
+      {studentCards}
     </section>
     </>
   )
 }
 
-export default Cohort; 
+export default Students; 
