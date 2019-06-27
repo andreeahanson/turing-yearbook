@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Person should match the snapshot with all data passed in correctly 1`] = `
+<Fragment>
+  <section
+    className="people"
+  >
+    <Person
+      id={1}
+      key="1"
+      name="Eric"
+      photo="./eric.jpg"
+      quote="You miss all the shots you don't take."
+      superlative="Most Likely to Win the PGA"
+    />
+    <Person
+      id={2}
+      key="2"
+      name="Amy"
+      photo="./amy.jpg"
+      quote="I believe in you, cuties!"
+      superlative="Most Likely to Be an Actual Superhero"
+    />
+  </section>
+</Fragment>
+`;
