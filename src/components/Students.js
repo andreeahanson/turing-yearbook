@@ -12,6 +12,7 @@ const Students = students => {
         name = {person.name}
         superlative = {person.superlative}
         key={person.id}
+        category={person.category}
       /> 
     )
   })
