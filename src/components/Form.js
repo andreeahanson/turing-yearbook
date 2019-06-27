@@ -59,15 +59,7 @@ class Form extends Component {
         value = {this.state.superlative}
         onChange = {event => this.handleChange(event)}
         />
-        {/* <input className="add-new"
-        type="file"
-        name = "photo"
-        placeholder = "Upload photo link"
-        accept = ".jpg, .png. .svg"
-        value = {this.state.photo}
-        onChange = {event => this.handleChange(event)}  
-        /> */}
-        <button onClick={event => this.submitNewStudent(event)}>Add</button>
+        <button className="add-student-btn" onClick={this.submitNewStudent}>Add</button>
       </form>
     )
   }
