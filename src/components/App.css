@@ -30,3 +30,16 @@ h1 {
   padding: 10px;
   color: limegreen;
 }
+
+.category {
+  background: orange;
+}
+
+.links {
+  margin: 300px;
+  font-size: 30px;
+  border-radius: 6%;
+  color: black;
+  background: white;
+  font-weight: bold;
+}

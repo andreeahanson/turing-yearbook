@@ -9,7 +9,7 @@ class Form extends Component {
       name: '',
       quote: '',
       superlative: '',
-      photo: 'https://r.hswstatic.com/w_907/gif/loggerhead-turtle.jpg'
+      photo: 'https://r.hswstatic.com/w_907/gif/loggerhead-turtle.jpg',
     }
   }
 
@@ -32,6 +32,7 @@ class Form extends Component {
     this.props.addNewStudent(newStudent);
     this.resetInputs();
   }
+
 
   render () {
     return (
