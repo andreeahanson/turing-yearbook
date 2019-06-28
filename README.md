@@ -23,3 +23,7 @@ Run `npm start` to start up your React server.
 #### ADDED STUDENT
 ![alt text](https://github.com/andreeahanson/turing-yearbook/blob/master/src/images/Added%20Student.png)
 
+#### Learning Goals
+- Write clean, well refactored code using ES6 syntax.
+- Learn to pass information between components using props.
+- Learn to write readable JSX (your render methods/return statements should be clean and simple).
