@@ -14,5 +14,12 @@ Run `npm start` to start up your React server.
 
 ### Screenshots
 
-![alt text](https://github.com/andreeahanson/overlook/blob/master/images/Screen%20Shot%202019-06-05%20at%2004.48.38.png)
+##### START PAGE
+![alt text](https://github.com/andreeahanson/turing-yearbook/blob/master/src/images/Start.png)
+#### EXAMPLE OF STAFF RENDERED ON THE PAGE
+![alt text](https://github.com/andreeahanson/turing-yearbook/blob/master/src/images/Staff.png)
+#### ADD STUDENT FORM
+![alt text](https://github.com/andreeahanson/turing-yearbook/blob/master/src/images/Form%20for%20adding%20student.png)
+#### ADDED STUDENT
+![alt text](https://github.com/andreeahanson/turing-yearbook/blob/master/src/images/Added%20Student.png)
 
