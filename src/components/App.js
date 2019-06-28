@@ -34,7 +34,7 @@ class App extends Component {
       </div>
     )
 
-    const Elevi = () => (
+    const TheStudents = () => (
       <div>
         <h2>Students</h2>
         <Students students = {this.state.students} />
@@ -52,23 +52,11 @@ class App extends Component {
         {!this.state.isHidden && <Form addNewStudent={this.addNewStudent}/>}
       </div>
       </header>
-      {/* <h2>Staff</h2>
-      <section className="people">
-      <Cohort 
-        staff = {this.state.staff}
-      />
-      </section>
-      <h2>Students</h2>
-      <section className="people">
-      <Students 
-        students = {this.state.students}
-      />
-      </section> */}
       <Router>
         <Link to='/staff'><span className="links"> Staff </span></Link>
         <Link to='/students'><span className="links"> Students </span></Link>
         <Route path='/staff' component={Staff} />
-        <Route path='/students' component={Elevi} />
+        <Route path='/students' component={TheStudents} />
       </Router>
       </div>
     );
