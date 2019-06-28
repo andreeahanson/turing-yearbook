@@ -1,6 +1,6 @@
 # Turing Yearbook
 
-Turing Yearbook is an individual project that was assigned on the first week of learning React. It consists of a yearbook application, where the pictures, the names and the quotes of each of the people in the Turing Staff and Students are rendered on the DOM, using React. There is a form that can be used to add a new student, and it appears by the click of the "Add a student" button at the top of the main page.
+Turing Yearbook is an individual project that was assigned on the first week of learning React. It consists of a yearbook application, where the pictures, the names and the quotes of each of the people in the Turing Staff and Students are rendered on the DOM, using React. Starting the page, there are two buttons options that can be clicked in order to render a group, staff or students. There is also a form that can be used to add a new student, and it appears by the click of the "Add a student" button at the top of the main page.
 
 This application was built with `create-react-app`.
 
